@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>  
+  <div class="container">
+    <div class="top">
+      <h1>calc</h1>
+      <div class="theme">
+        <h2>THEME</h2>
+        <div class="theme__options">
+          <div class="theme__options__digits">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="toggle" id="toggle">
+            <div class="toggle__ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen">
+      <p class="screen__small-digits"></p>
+      <p class="screen__digits"></p>
+    </div>
+    <div class="btns-container">
+      <div class="btns">
+        <button class="btns__num">7</button>
+        <button class="btns__num">8</button>
+        <button class="btns__num">9</button>
+        <button class="btns__del" id="del">DEL</button>
+        <button class="btns__num">4</button>
+        <button class="btns__num">5</button>
+        <button class="btns__num">6</button>
+        <button class="btns__operators">+</button>
+        <button class="btns__num">1</button>
+        <button class="btns__num">2</button>
+        <button class="btns__num">3</button>
+        <button class="btns__operators">-</button>
+        <button class="btns__num">.</button>
+        <button class="btns__num">0</button>
+        <button class="btns__operators">/</button>
+        <button class="btns__operators">x</button>
+        <button class="btns__reset" id="reset">RESET</button>
+        <button class="btns__equal" id="equal">=</button>
+      </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
